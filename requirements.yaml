@@ -1,0 +1,19 @@
+packages:
+  "framer-motion": "For fluid layout animations and page transitions"
+  "clsx": "For conditional class merging"
+  "tailwind-merge": "For conditional class merging"
+
+images:
+  - path: "artifacts/quizforge/public/images/hero-quiz.png"
+    description: "Vibrant abstract 3d composition with floating colorful geometric shapes, books, and question marks on a soft gradient background, joyful educational theme"
+    aspect_ratio: "16:9"
+  - path: "artifacts/quizforge/public/images/hero-recipe.png"
+    description: "Vibrant abstract 3d composition with floating colorful culinary elements, fresh abstract ingredients, and soft warm lighting"
+    aspect_ratio: "16:9"
+  - path: "artifacts/quizforge/public/images/empty-state.png"
+    description: "Playful 3d illustration of an empty open box with a single sparkling star floating inside"
+    aspect_ratio: "1:1"
+
+notes:
+  - Assuming standard Shadcn-like icons from lucide-react
+  - React Query hooks are imported from @workspace/api-client-react
